@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/urszula.dziewit@inwenta.pl" method="post">
+
+        Imie: <input type="text" name="imie" id="imie"><br/> Nazwisko: <input type="text" name="nazwisko" id="nazwisko"><br/> Email: <input type="text" name="Email" id="Email"><br/> Nr telefonu: <input type="text" name="tel" id="tel"><br/> Miasto: <select name="Miasto">
+        <option value="Wybierz">Wybierz</option>
+        <option value="Krakow">Krakow</option>
+        <option value="Warszawa">Warszawa</option>
+        <option value="Gdansk">Gdansk</option>
+        </select> 
+        <p>Płeć</p>:
+        <input type="radio" name="gender" value="facet"> id="male" <label for="male">Mezczyzna</label>
+        <input type="radio" name="gender" value="baba" id='woman'><label for="woman">Kobieta</label>
+        <label><input type="radio" name="gender" value="other ha ha">Inna ha ha</label><br>
+    
+        Zgoda na dane:
+        <input type="checkbox" value="Zgoda wyrazona" name="Zgoda wyrazona" id="agreement"><label for="agreement"> Wyrazam zgode</label>
+        
+        Wiadomość: 
+        <p>wiadomosc dla p.basi z dziekanatu</p>
+        <textarea name="wiadomosc" id="message" maxlength="500"</textarea>
+        <input type="submit" id="submit" value="Wyślij">
+    </form>
+</body>
+
+</html>
