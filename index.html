@@ -13,8 +13,8 @@
 
         Imie: <input type="text" name="imie" id="imie"><br/> 
         Nazwisko: <input type="text" name="nazwisko" id="nazwisko"><br/> 
-        Email: <input type="text" name="Email" id="Email"><br/> 
-        Nr telefonu: <input type="text" name="tel" id="tel"><br/> 
+        Email: <input type="email" name="Email" id="Email"><br/> 
+        Nr telefonu: <input type="tel" name="tel" id="tel"><br/> 
         
         Miasto: <select name="Miasto">
         
@@ -24,12 +24,13 @@
         <option value="Gdansk">Gdansk</option>
         </select>
         
-        <p>Płeć</p>
+        <p>Płeć:</p>
         <input type="radio" name="gender" value="facet" id="male"> <label for="male">Mezczyzna</label>
         <input type="radio" name="gender" value="baba" id='woman'><label for="woman">Kobieta</label>
         <br> 
         
-        <input type="checkbox" value="Zgoda wyrazona" name="Zgoda wyrazona" id="agreement"><label for="agreement"> Wyrazam zgode</label> 
+        <input type="checkbox" id="agreement" name="agreement"><label for="agreement"> Wyrazam zgode na przetwarzanie danych osobowych</label> 
+        
         Wiadomość:
 
         <textarea name="wiadomosc" id="message"> </textarea>
