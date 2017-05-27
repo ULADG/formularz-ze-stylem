@@ -1,0 +1,31 @@
+body {
+    background-color: #213b50;
+        color: #fff;
+}
+label {
+    display: block;
+}
+input[type="text"]
+input[type="tel"]
+input[type="email"]
+textaera,
+select {
+    background-color: :#2b4a64;
+    color: #fff;
+    width:300px;
+    margin-bottom:  20px;
+    border: 1px solid #fff;
+    
+    
+    input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+textaera,focus
+select {
+}
+input, textaera, select {
+    background-color: #2b4a64;
+    color: #fff;
+    width 300px;
+    margin-botom
+}
