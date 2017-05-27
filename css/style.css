@@ -5,27 +5,42 @@ body {
 label {
     display: block;
 }
-input[type="text"]
-input[type="tel"]
-input[type="email"]
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
 textaera,
 select {
-    background-color: :#2b4a64;
+    background-color: #2b4a64;
     color: #fff;
     width:300px;
     margin-bottom:  20px;
     border: 1px solid #fff;
+    padding: 10px 0;}
     
     
-    input[type="text"]:focus,
+input[type="text"]:focus,
 input[type="tel"]:focus,
 input[type="email"]:focus,
-textaera,focus
-select {
+textaera:focus,
+select: focus {
+    border: 1px solid #fff
+        outline: none;
+    background-color: #4c708c;
 }
-input, textaera, select {
-    background-color: #2b4a64;
+
+
+label[for*="male"], label[for="agreemnet"] {
+    display: inline;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: #1ac056;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid #1ac056;
     color: #fff;
-    width 300px;
-    margin-botom
+    
 }
